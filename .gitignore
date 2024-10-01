@@ -1,0 +1,74 @@
+# MacOS files
+.DS_Store
+
+# Node.js modules
+node_modules/
+
+# Salesforce DX project specific files
+.sfdx/
+*.log
+*.local
+
+# IDE Specific files
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+
+# SFDX scratch org files
+*.scratch-def.json
+*.json
+*.zip
+*.bak
+
+# Temporary local files
+*.tmp
+*.swp
+*.lock
+
+# Package & deployment files
+*.xml
+*.csv
+*.bak
+*.md
+
+# NPM debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metadata API files (optional)
+# If you are working with Salesforce DX (SFDX) format and using force-app, you don't need the src/ directory
+src/
+
+# Static Resource bundle (if you're using LWC)
+**/staticresources/*.resource-meta.xml
+**/staticresources/*.resource
+
+# LWC files
+**/lwc/**/jsconfig.json
+
+# Coverage reports
+coverage/
+
+# Salesforce Cache and Sessions
+.ldb
+sessionstore.json
+
+# Salesforce source tracking files (useful when you're deploying/retrieving source from an org)
+*.tmp
+
+# Ignore force-app destructive changes
+force-app/destructiveChanges/
+force-app/destructiveChangesPre/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Miscellaneous local files
+*.bak
+*.old
