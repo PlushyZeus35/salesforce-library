@@ -28,10 +28,8 @@ node_modules/
 *.lock
 
 # Package & deployment files
-*.xml
 *.csv
 *.bak
-*.md
 
 # NPM debug log files
 npm-debug.log*
